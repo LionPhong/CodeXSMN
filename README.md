@@ -12,7 +12,7 @@
  " wedsite : " http://xoso.com.vn/xo-so-mien-nam/path-1.html
  " API     : " device/asus/debdevice/asus/flodevice/asus/flo-kerneldevice/asus/fugudevice/asus/fugu-kerneldevice/asus/grouperFiles specific to Nexus 7device/asus/tilapiadevice/casio/koi-ubootdevice/commondevice/freescale/picoimxb/26753464device/generic/arm64device/generic/armv7-adevice/generic/armv7-a-neondevice/generic/artdevice/generic/brillodevice/generic/cardevice/generic/commondevice/generic/goldfishdevice/generic/goldfish-opengldevice/generic/mini-emulator-arm64device/generic/mini-emulator-armv7-a-neondevice/generic/mini-emulator-mipsdevice/generic/mini-emulator-mips64device/generic/mini-emulator-x86device/generic
  
-serialization issue of ExternalVibration Remove excessive serialization of Audio Attributes Bug: 140417434 Test: atest ExternalVibrationTest#testSerialization Change-Id: Ib7ceaed875889126a53f874eec64fab4817e48d1 (cherry picked from commit b1a33a8b4fd4b1603c0465a904be29f0c4a07e64) core/java/android/os/ExternalVibration.java[diff]core/tests/coretests/src/android/os/ExternalVibrationTest.java[Added - diff]
+serialization issue of ExternalVibration Remove excessive serialization of Audio Attributest.Test: atest ExternalVibrationTest#testSerialization Change-Id: Ib7ceaed875889126a53f874eec64fab4817e48d1 (cherry picked from commit b1a33a8b4fd4b1603c0465a904be29f0c4a07e64) core/java/android/os/ExternalVibration.java[diff]core/tests/coretests/src/android/os/ExternalVibrationTest.java[Added - diff]
 
 2 files changed
 
